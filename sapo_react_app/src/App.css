@@ -1,0 +1,94 @@
+@import '~antd/dist/antd.css';
+#full-screen {
+    margin-left: 0px;
+    margin-right: 0px
+}
+
+#active {
+    background-color: #007bff
+}
+
+
+/* content and sider */
+
+#sider {
+    display: inline-block;
+    width: 230px;
+    background: #202d3f;
+    height: 100vh;
+    position: fixed;
+}
+
+#main-content {
+    display: inline-block;
+    width: calc(100% - 230px);
+    /* text-align: center; */
+    margin-left: 230px;
+    background-color: #f0f2f5;
+    min-height: 100vh;
+    padding-top: 10px;
+}
+
+#main-header {
+    display: inline-block;
+    width: calc(100% - 230px);
+    text-align: center;
+    margin-left: 230px;
+    background: pink;
+}
+
+
+/* footer */
+
+#main-footer {
+    position: relative;
+    width: 100%;
+    padding-top: 60px;
+}
+
+tbody tr:hover {
+    background-color: #ebf5fa !important;
+}
+
+.customer-bill-header {
+    display: flex;
+}
+
+img#prod-item-image {
+    width: 34px;
+}
+
+th#input-prod {
+    width: 20%;
+}
+
+button#btn-prod-bill-item {
+    height: 50px;
+}
+
+.header-bill.mb-3 {
+    width: 100%;
+    height: 50px;
+    font-size: 40px;
+}
+
+.customer-bill {
+    width: 100%;
+}
+
+.search-customer-bill {
+    margin-bottom: 20px;
+}
+
+.cateList:hover {
+    background: #ebf5fa;
+}
+
+.ant-table-thead>tr>th {
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+    text-align: left;
+    background: rgb(184, 218, 255);
+    border-bottom: 1px solid #f0f0f0;
+    transition: background 0.3s ease;
+}

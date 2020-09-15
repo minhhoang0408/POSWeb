@@ -1,0 +1,37 @@
+.background_table {
+  background-color: #f3f4f500;
+}
+.mr-10 {
+  margin: 10px;
+}
+.total {
+  width: 100%;
+}
+.list-info-money {
+  float: right;
+  background-color: white;
+  font-size: 13px;
+}
+table.sapo-table-line-item {
+  width: 100%;
+  font-size: 13px;
+  border: 1px solid #c4cdd5;
+  border-width: 0;
+}
+.mr-layout {
+  margin: 50px;
+}
+.App {
+  background-color: #f2f4f8;
+}
+.bill-list {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.bill-list .plus {
+  color: #26799c;
+  height: 38px;
+  margin-top: 8px;
+  background-color: #ffffff;
+}
